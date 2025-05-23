@@ -1,7 +1,7 @@
 ## Architecture Decision Records (ADR)
 
 Ce site est dédié à la documentation des Architecture Decision Records (ADR) de l'Agence du Numérique en Santé ([ANS](https://esante.gouv.fr/)).
-Les ADR sont des documents qui capturent les décisions architecturales importantes prises au cours du développement et de la maintenance des systèmes.
+Les ADR sont des documents qui capturent les décisions architecturales importantes prises au cours du développement et de la maintenance des systèmes. 
 
 ## Qu'est-ce qu'un ADR ?
 
