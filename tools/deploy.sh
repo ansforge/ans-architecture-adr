@@ -20,7 +20,7 @@ _no_pages_branch=false
 
 _backup_dir="$(mktemp -d)"
 
-_baseurl="/55colonie"
+_baseurl="/ans-architecture-adr"
 
 help() {
   echo "Build, test and then deploy the site content to 'origin/<pages_branch>'"
