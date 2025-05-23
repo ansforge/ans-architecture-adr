@@ -11,15 +11,15 @@ baseurl: '/ans-architecture-adr'
 timezone: Europe/London
 
 # Site title
-title: 55 rue de la colonie
+title: ANS architecture
 
 # Subtitle
 tagline: >-
-  Vie de l'immeuble
+  ANS architecture
 
 # Used by seo meta and the atom feed
 description: >-                        
-  55 rue de la colonie
+  ANS architecture
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://ansforge.github.io/ans-architecture-adr'
