@@ -1,5 +1,5 @@
 ---
-parent: decisions
+parent: Decisions
 nav_order: 1
 ---
 # Licence des projets Github
