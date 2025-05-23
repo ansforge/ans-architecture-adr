@@ -1,6 +1,6 @@
 ---
-parent: decisions
-nav_order: 100
+parent: Decisions
+nav_order: 0000
 title: Modèle RDA
 
 # Ces éléments sont optionnels. N'hésitez pas à les supprimer.
