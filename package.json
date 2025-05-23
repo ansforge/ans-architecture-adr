@@ -1,0 +1,29 @@
+{
+  "name": "ansforge/ans-architecture-adr",
+  "description": "Architectural Decision Records",
+  "keywords": [
+    "adr",
+    "decision record",
+    "any decision record",
+    "architectural decision",
+    "architectural decision record",
+    "architecture decision",
+    "architecture decision record",
+    "software quality",
+    "documentation",
+    "markdown"
+  ],
+  "version": "4.0.0",
+  "homepage": "https://ansforge.github.io/ans-architecture-adr/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansforge/ans-architecture-adr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ansforge/ans-architecture-adr"
+  },
+  "license": "MIT",
+  "files": [
+    "template/"
+  ]
+}

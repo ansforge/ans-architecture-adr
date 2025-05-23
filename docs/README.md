@@ -15,7 +15,7 @@ Les ADR sont essentiels pour :
 - Maintenir la trace des décisions architecturales
 - Faciliter la communication entre les équipes
 - Documenter les raisons derrière les choix architecturaux
-- Aider à la prise de décision future 
+- Aider à la prise de décision future
 
 ## Structure des ADR
 
