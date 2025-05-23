@@ -25,7 +25,7 @@ description: >-
 url: 'https://ansforge.github.io/ans-architecture-adr'
 
 github:
-  username: ans-forge              # change to your github username
+  username: ansforge              # change to your github username
 
 social:
   name: ANS Forge                # Post author name
