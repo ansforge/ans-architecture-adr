@@ -1,41 +1,35 @@
-<!-- # Ce sont des éléments de métadonnées optionnels. Vous pouvez les supprimer si vous le souhaitez.
+---
+title: Template
+date: 2022-05-05 22:18:00 +0100
+categories: [Template, Template2]
+tags: [Template, Template2]
+---
+
+# Ce sont des éléments de métadonnées optionnels. Vous pouvez les supprimer si vous le souhaitez.
 status : "{proposé | rejeté | accepté | obsolète | … | remplacé par ADR-0123}"
 date : {AAAA-MM-JJ, date de la dernière mise à jour de la décision}
 décisionnaires : {liste de toutes les personnes impliquées dans la prise de décision}
 consultés : {liste des personnes dont les opinions sont sollicitées (généralement des experts en la matière) et avec lesquelles il y a une communication bidirectionnelle}
 informés : {liste des personnes tenues au courant des progrès, avec lesquelles la communication est unidirectionnelle}
--->
-status : "{proposé}"
-date : {2024-12-10, création}
-décisionnaires : {Laurent JOUBERT, Hervé GARREAU}
-consultés : {Cedric PANNISSOD, Alexandre SALZMANN, Christian CRIMETZ, Laurent DUMONTIER, Alban MAREAU}
-informés : {liste des personnes tenues au courant des progrès, avec lesquelles la communication est unidirectionnelle}
 
 ---
 
-# {convention de nommage des urls des applications et services de l'ANS}
+# {titre court, représentatif du problème résolu et de la solution trouvée}
 
 ## Contexte et Énoncé du Problème
 
-{Adopter une convention de nommage des URL et services de l'ANS de sorte que soit explicite et cohérente. L'objectif est d'uniformiser les moyens d’accéder à ces services par nos partenaires.}
+{Décrivez le contexte et l'énoncé du problème, par exemple, sous forme libre en deux ou trois phrases ou sous forme d'une histoire illustrative. Vous pouvez formuler le problème sous forme de question et ajouter des liens vers des tableaux de collaboration ou des systèmes de gestion des problèmes.}
 
 <!-- Cet élément est optionnel. Vous pouvez le supprimer si vous le souhaitez. -->
+## Facteurs de Décision
+
+* {facteur de décision 1, par exemple une force, une préoccupation, …}
+* {facteur de décision 2, par exemple une force, une préoccupation, …}
+* … <!-- le nombre de facteurs peut varier -->
 
 ## Options Considérées
 
-* {[appli/outil/service].[environnement].esante.gouv.fr} 
-    * appli/outil/service : nom fourni par les programmes pour leur service applicatif
-        * Le référentiel des appli/outil/service pourra faire l’objet d’un document spécifique (à arbitrer). Il contiendra pour chaque          	appli/outil/service ouvert aux partenaires sa description et son identifiant (exemple :finess, ror, 	hub-sante, …)
-    * Environnement : liste des environnements accessibles aux partenaires
-        * Les environnements concernés sont : 
-            * bac à sable (bac-a-sable) pour les tests d’interconnexion avec les partenaires
-                * exemple : ror.bac-a-sable.esante.gouv.fr
-            * Formation (formation) pour la formation aux outils
-                * exemple : ror.formation.esante.gouv.fr
-            * Production () pour les services mis à disposition en production le nom de l'environnement n'apparait pas
-                * exemple ror.esante.gouv.fr
-        
-
+* {titre de l'option 1}
 * {titre de l'option 2}
 * {titre de l'option 3}
 * … <!-- le nombre d'options peut varier -->
