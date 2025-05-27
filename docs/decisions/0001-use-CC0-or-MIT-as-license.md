@@ -4,7 +4,7 @@ nav_order: 1
 ---
 # Licence des projets Github
 
-## Contexte et Énoncé du Problème
+## Contexte et énoncé du problème
 
 Tout doit être sous licence sinon les lois de copyright par défaut s'appliquent.
 Par exemple, en Allemagne, cela signifie que les utilisateurs ne peuvent pas modifier quoi que ce soit sans demander explicitement la permission.

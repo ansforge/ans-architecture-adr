@@ -1,20 +1,22 @@
 ---
-nav_order: 2
+parent: Decisions
+nav_order: 0000
+title: Modèle ADR
 ---
 # Exemple
 
 # Ce sont des éléments de métadonnées optionnels. Vous pouvez les supprimer si vous le souhaitez.
-status : "{proposé | rejeté | accepté | obsolète | … | remplacé par ADR-0123}"
+statut : "{proposé | rejeté | accepté | obsolète | … | remplacé par 0123-ADR-description}"
 date : {AAAA-MM-JJ, date de la dernière mise à jour de la décision}
 décisionnaires : {liste de toutes les personnes impliquées dans la prise de décision}
 consultés : {liste des personnes dont les opinions sont sollicitées (généralement des experts en la matière) et avec lesquelles il y a une communication bidirectionnelle}
-informés : {liste des personnes tenues au courant des progrès, avec lesquelles la communication est unidirectionnelle}
+informés : {liste des personnes tenues au courant des progrès avec lesquelles la communication est unidirectionnelle}
 
 ---
 
 # {titre court, représentatif du problème résolu et de la solution trouvée}
 
-## Contexte et Énoncé du Problème
+## Contexte et énoncé du problème
 
 {Décrivez le contexte et l'énoncé du problème, par exemple, sous forme libre en deux ou trois phrases ou sous forme d'une histoire illustrative. Vous pouvez formuler le problème sous forme de question et ajouter des liens vers des tableaux de collaboration ou des systèmes de gestion des problèmes.}
 
@@ -25,7 +27,7 @@ informés : {liste des personnes tenues au courant des progrès, avec lesquelles
 * {facteur de décision 2, par exemple une force, une préoccupation, …}
 * … <!-- le nombre de facteurs peut varier -->
 
-## Options Considérées
+## Options considérées
 
 * {titre de l'option 1}
 * {titre de l'option 2}
@@ -49,7 +51,7 @@ Option choisie : "{titre de l'option 1}", parce que {justification, par exemple 
 {Décrivez comment la mise en œuvre / la conformité de l'ADR peut/sera confirmée. Existe-t-il une fonction automatisée ou manuelle pour cela ? Si oui, listez-la et expliquez comment elle est appliquée. La conception choisie et sa mise en œuvre sont-elles conformes à la décision ? Par exemple, une revue de conception/code ou un test avec une bibliothèque comme ArchUnit peut aider à valider cela. Notez que bien que nous classions cet élément comme optionnel, il est inclus dans de nombreux ADR.}
 
 <!-- Cet élément est optionnel. Vous pouvez le supprimer si vous le souhaitez. -->
-## Avantages et Inconvénients des Options
+## Avantages et inconvénients des Options
 
 ### {titre de l'option 1}
 
