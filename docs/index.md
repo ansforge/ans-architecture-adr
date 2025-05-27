@@ -1,6 +1,6 @@
 ---
 nav_order: 1
-title: À propos de MADR
+title: À propos des ADR
 ---
 <!-- markdownlint-disable MD025 -->
 # Liste des décisions architecturales de l'ANS
@@ -12,10 +12,9 @@ Pour capturer ces enregistrements de manière concise, les ADR sont disponibles 
 ## Sommaire
 
 * [Aperçu](#aperçu)
+* [Exemple](#exemple-d-adr)
 * [Structure](#structure-des-adr)
 * [Navigation](#navigation)
-
-##
 
 ## Aperçu
 
@@ -23,6 +22,9 @@ Un [Décision Architecturale (DA)](https://en.wikipedia.org/wiki/Architectural_d
 Cela peut, par exemple, être un choix technologique (par exemple, Java vs. JavaScript), un choix d'IDE (par exemple, IntelliJ vs. Eclipse IDE), un choix entre une bibliothèque (par exemple, [SLF4J](https://www.slf4j.org/) vs [java.util.logging](https://docs.oracle.com/javase/8/docs/api/java/util/logging/package-summary.html)), ou une décision sur les fonctionnalités.
 Comme les exemples l'illustrent, toute décision qui pourrait avoir un impact sur l'architecture est une décision architecturale.
 Toute décision doit être capturée de manière structurée. Ce dépôt offre une solution pour enregistrer toutes les décisions et fournit des fichiers pour les documenter.
+
+## Exemple d'ADR : 
+Voir le lien suivant ([Modèle](https://github.com/ansforge/ans-architecture-adr/blob/main/template/adr-template.md)).
 
 ## Structure des ADR
 
