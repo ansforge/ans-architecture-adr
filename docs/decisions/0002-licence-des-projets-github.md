@@ -1,6 +1,6 @@
 ---
 parent: Decisions
-nav_order: 1
+nav_order: 0002
 ---
 
 # Licence des projets Github
