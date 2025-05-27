@@ -30,9 +30,11 @@ Chaque ADR suit un format standard qui comprend :
 - La décision
 - Les conséquences
 
-## Exemple d'ADR : 
+## Exemple d'ADR 
 Voir le lien suivant ([Modèle](https://github.com/ansforge/ans-architecture-adr/blob/main/template/adr-template.md)).
 
+## Lien des ADR 
+Tous les ADR sont situés dans le dossier ([docs/decisions](https://github.com/ansforge/ans-architecture-adr/tree/main/docs/decisions)).
 ## Navigation
 
 Les ADR sont organisés chronologiquement et numérotés pour faciliter leur suivi et leur référencement.
