@@ -1,11 +1,11 @@
 ---
 parent: Decisions
 nav_order: 0001
-title: Modèle ADR
+title: Choix du modèle pour la rédaction des ADR
 
 ---
 
-# Choix du modèle pour les ADR
+# Choix du modèle pour la rédaction des ADR
 
 * statut : proposé
 * date : 2025-05-27
