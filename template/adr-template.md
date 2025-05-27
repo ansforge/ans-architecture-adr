@@ -1,74 +1,91 @@
 ---
-# These are optional metadata elements. Feel free to remove any of them.
-status: "{proposed | rejected | accepted | deprecated | … | superseded by ADR-0123"
-#date: {YYYY-MM-DD when the decision was last updated}
-decision-makers: {list everyone involved in the decision}
-consulted: {list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication}
-informed: {list everyone who is kept up-to-date on progress; and with whom there is a one-way communication}
+parent: Decisions
+nav_order: 0000
+title: Modèle ADR
+
 ---
 
-# {short title, representative of solved problem and found solution}
+# Utilisation du modèle ADR-ANS
 
-## Context and Problem Statement
+statut : proposé
+date : 2025-05-27
+décisionnaires : CTO
+consultés : CTO
+informés : équipe intégration, directeurs de domaine
 
-{Describe the context and problem statement, e.g., in free form using two to three sentences or in the form of an illustrative story. You may want to articulate the problem in form of a question and add links to collaboration boards or issue management systems.}
+---
 
-<!-- This is an optional element. Feel free to remove. -->
-## Decision Drivers
+# Formalisme des décisions d'architecture au format markdown sur Github
 
-* {decision driver 1, e.g., a force, facing concern, …}
-* {decision driver 2, e.g., a force, facing concern, …}
-* … <!-- numbers of drivers can vary -->
+## Contexte et énoncé du problème
 
-## Considered Options
+Actuellement, les décisions d'architecture sont prises de manière informelle, dispersées dans des discussions verbales, des emails, des groupes Sharepoint et des tickets Jira. Cela rend difficile le suivi des raisons derrière ces décisions, leur impact et leur révision ultérieure. L'objectif est de formaliser le processus de décision d'architecture en utilisant un modèle standardisé, stocké dans un format lisible par tous et accessible via un système de gestion de versions (Git).  Comment structurer et documenter les décisions d'architecture de manière claire, traçable et collaborative ?  
 
-* {title of option 1}
-* {title of option 2}
-* {title of option 3}
-* … <!-- numbers of options can vary -->
+## Facteurs de Décision
 
-## Decision Outcome
+* **Lisibilité et simplicité :** Le formalisme doit être facile à comprendre et à maintenir pour l'ensemble de l'équipe.
+* **Traçabilité :** Il doit être facile de retrouver l'historique des décisions et leur justification.
+* **Collaborativité :** Le processus doit encourager la participation de tous les membres de l'ANS.
+* **Intégration à l'existant :** Le format doit s'intégrer facilement à l'écosystème Github (Markdown, pull requests).
+* **Maintenabilité :** La structure doit être facile à faire évoluer au fil du temps.
 
-Chosen option: "{title of option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
+## Options considérées
 
-<!-- This is an optional element. Feel free to remove. -->
-### Consequences
+* **ans-architecture-adr sur Github :** Utiliser un template ADR (Architecture Decision Record) au format Markdown et stocker ces fichiers dans un repository Github.
+* **Wiki Github :** Utiliser le Wiki Github pour documenter les décisions d'architecture.
+* **Confluence :** Centraliser les décisions d'architecture dans un espace Confluence.
+* **GED :** Utiliser la GED pour collaborer et documenter les décisions d'architecture.
 
-* Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
-* Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
-* … <!-- numbers of consequences can vary -->
+## Résultat de la Décision
 
-<!-- This is an optional element. Feel free to remove. -->
+Option choisie : "ans-architecture-adr sur Github" parce que c'est la solution qui combine le mieux la lisibilité, la traçabilité, la collaborativité et l'intégration avec notre infrastructure existante (Github). De plus, l'utilisation du format Markdown favorise la portabilité et l'archivage à long terme.
+
+
+### Conséquences
+* **Positive, car** améliore la transparence et la compréhension des décisions d'architecture. Facilite l'onboarding de nouveaux membres dans l'équipe.  Augmente la traçabilité des décisions.
+* **Négative, car** nécessite un certain effort initial pour adopter et maintenir la discipline des ADR. Peut impliquer une charge administrative légèrement supérieure à des méthodes plus informelles.
+
+<!-- Cet élément est optionnel. Vous pouvez le supprimer si vous le souhaitez. -->
 ### Confirmation
 
-{Describe how the implementation / compliance of the ADR can/will be confirmed. Is there any automated or manual fitness function? If so, list it and explain how it is applied. Is the chosen design and its implementation in line with the decision? E.g., a design/code review or a test with a library such as ArchUnit can help validate this. Note that although we classify this element as optional, it is included in many ADRs.}
+La conformité de l'ADR sera confirmée par une revue des pull requests contenant les nouveaux ADR ou les mises à jour d'ADR existants. Un script Github Actions pourrait être mis en place pour valider la structure et le contenu des ADR (présence de certains champs obligatoires par exemple).  Une review du code affecté par la décision d'architecture sera également effectuée pour s'assurer de la conformité.
 
-<!-- This is an optional element. Feel free to remove. -->
-## Pros and Cons of the Options
+<!-- Cet élément est optionnel. Vous pouvez le supprimer si vous le souhaitez. -->
+## Avantages et inconvénients des Options
 
-### {title of option 1}
+### ans-architecture-adr sur Github
 
-<!-- This is an optional element. Feel free to remove. -->
-{example | description | pointer to more information | …}
+* Positive, car facilite la collaboration via les pull requests Github.
+* Positive, car le format Markdown est simple, lisible et portable.
+* Neutre, car nécessite la mise en place d'une convention de nommage et d'organisation des fichiers ADR.
+* Négative, car peut nécessiter un temps d'adaptation pour des gens non techniques.
 
-* Good, because {argument a}
-* Good, because {argument b}
-<!-- use "neutral" if the given argument weights neither for good nor bad -->
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* … <!-- numbers of pros and cons can vary -->
+### Wiki Github
 
-### {title of other option}
+* Positive, car facile à mettre en place et à utiliser.
+* Positive, car intégrée nativement à Github.
+* Neutre, car moins structuré qu'un modèle ADR ce qui peut conduire à un manque de cohérence.
+* Négative, car moins adapté au suivi des changements et à la traçabilité des décisions.
+* Négative, car moins formel, donc moins de garantie de couverture des points importants.
 
-{example | description | pointer to more information | …}
+### Confluence
 
-* Good, because {argument a}
-* Good, because {argument b}
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* …
+* Positive, car permet une gestion centralisée des connaissances.
+* Neutre, car nécessite une licence Confluence.
+* Négative, car peut devenir un silo d'information si mal utilisé.
+* Négative, car accès potentiellement limité à certaines personnes.
 
-<!-- This is an optional element. Feel free to remove. -->
-## More Information
+### GED 
 
-{You might want to provide additional evidence/confidence for the decision outcome here and/or document the team agreement on the decision and/or define when/how this decision the decision should be realized and if/when it should be re-visited. Links to other decisions and resources might appear here as well.}
+* Positive, car facile à utiliser et à partager.
+* Négative, car manque de traçabilité des modifications.
+* Négative, car moins structuré et formel qu'un ADR.
+* Négative, car peut devenir un silo d'information si mal utilisé.
+* Négative, car accès potentiellement limité à certaines personnes.
+
+<!-- Cet élément est optionnel. Vous pouvez le supprimer si vous le souhaitez. -->
+## Informations Supplémentaires
+
+La mise en œuvre de ce formalisme a débuté par la création d'un repository dédié aux ADR : https://github.com/ansforge/ans-architecture-adr
+
+---

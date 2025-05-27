@@ -3,6 +3,9 @@
 Ce site est dédié à la documentation des Architecture Decision Records (ADR) de l'Agence du Numérique en Santé ([ANS](https://esante.gouv.fr/)).
 Les ADR sont des documents qui capturent les décisions architecturales importantes prises au cours du développement et de la maintenance des systèmes.
 
+## Exemple d'ADR : 
+Voir le lien suivant ([Modèle](https://github.com/ansforge/ans-architecture-adr/blob/main/template/adr-template.md)).
+
 ## Qu'est-ce qu'un ADR ?
 
 Un ADR est un document qui capture une décision architecturale importante, y compris :
@@ -33,5 +36,6 @@ Les ADR sont organisés chronologiquement et numérotés pour faciliter leur sui
 
 ## Page Web 
 Le site web est créé en utilisant le thème Jekyll [Just the Docs](https://just-the-docs.github.io/just-the-docs/).
+Pour que les ADR soient publiés, il faut faire une pull request vers la branche gh-pages et l'accepter.
 
 
