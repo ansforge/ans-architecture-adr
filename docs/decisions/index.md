@@ -4,9 +4,7 @@ nav_order: 100
 ---
 # Decisions
 
-Below, all decision records for MADR are listed.
-This list uses the TOC functionality of the [Just the Docs Jekyll template](https://just-the-docs.github.io/just-the-docs/).
+Ci-dessous, tous les adr sont listés : 
 
-For new ADRs, please use [adr-template.md](adr-template.md) as basis.
-More information on MADR is available at <https://adr.github.io/madr/>.
-General information about architectural decision records is available at <https://adr.github.io/>.
+Pour de nouveaux ADRs, merci d'utiliser le modèle suivant ([Modèle](https://github.com/ansforge/ans-architecture-adr/blob/main/template/adr-template.md)). 
+
