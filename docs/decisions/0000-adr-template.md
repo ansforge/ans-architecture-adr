@@ -7,11 +7,11 @@ title: Modèle ADR
 
 # Utilisation du modèle ADR-ANS
 
-statut : proposé
-date : 2025-05-27
-décisionnaires : CTO
-consultés : CTO
-informés : équipe intégration, directeurs de domaine
+* statut : proposé
+* date : 2025-05-27
+* décisionnaires : CTO
+* consultés : CTO
+* informés : équipe intégration, directeurs de domaine
 
 ---
 
