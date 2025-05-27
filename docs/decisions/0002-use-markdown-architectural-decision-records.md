@@ -1,6 +1,6 @@
 ---
 parent: Decisions
-nav_order: 8
+nav_order: 1
 ---
 # Utiliser les rapports de décisions architecturales en markdown
 
