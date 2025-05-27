@@ -4,7 +4,7 @@ Ce site est dédié à la documentation des Architecture Decision Records (ADR) 
 Les ADR sont des documents qui capturent les décisions architecturales importantes prises au cours du développement et de la maintenance des systèmes. 
 
 ## Exemple d'ADR : 
-Voir le lien suivant ([Modèle](https://github.com/ansforge/ans-architecture-adr/blob/main/template/adr-template.md)).
+Voir le lien suivant ([Modèle](https://github.com/ansforge/ans-architecture-adr/blob/main/docs/decisions/0000-adr-template.md)).
 
 ## Qu'est-ce qu'un ADR ?
 
