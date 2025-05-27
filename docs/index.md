@@ -24,7 +24,7 @@ Comme les exemples l'illustrent, toute décision qui pourrait avoir un impact su
 Toute décision doit être capturée de manière structurée. Ce dépôt offre une solution pour enregistrer toutes les décisions et fournit des fichiers pour les documenter.
 
 ## Exemple d'ADR : 
-Voir le lien suivant ([Modèle](https://github.com/ansforge/ans-architecture-adr/blob/main/template/adr-template.md)).
+Voir le lien suivant ([Modèle](https://github.com/ansforge/ans-architecture-adr/blob/main/docs/decisions/0000-modele-adr.md)).
 
 ## Structure des ADR
 
