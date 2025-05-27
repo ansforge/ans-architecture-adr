@@ -1,7 +1,7 @@
 ---
 parent: Decisions
 nav_order: 0000
-title: Modèle ADR
+title: Template ADR
 ---
 
 # Exemple
