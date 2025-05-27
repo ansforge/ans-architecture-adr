@@ -2,7 +2,14 @@
 parent: Decisions
 nav_order: 1
 ---
+
 # Licence des projets Github
+
+* statut : proposé
+* date : 2025-05-27
+* décisionnaires : CTO
+* consultés : CTO
+* informés : équipe intégration, directeurs de domaine
 
 ## Contexte et énoncé du problème
 
