@@ -1,14 +1,15 @@
 ---
 parent: Decisions
 nav_order: 0000
-title: Template ADR
+title: 0000-Template ADR
 ---
 
-# Exemple
+# Exemple de template
 
 # Ce sont des éléments de métadonnées optionnels. Vous pouvez les supprimer si vous le souhaitez.
-* statut : "{proposé | rejeté | accepté | obsolète | … | remplacé par 0123-ADR-description}"
+* statut : "{proposé | rejeté | accepté | obsolète | remplacé par 0123-ADR-description}"
 * date : {AAAA-MM-JJ, date de la dernière mise à jour de la décision}
+* périmètre : "{Projet | Agence | Sectoriel}" 
 * décisionnaires : {liste de toutes les personnes impliquées dans la prise de décision}
 * consultés : {liste des personnes dont les opinions sont sollicitées (généralement des experts en la matière) et avec lesquelles il y a une communication bidirectionnelle}
 * informés : {liste des personnes tenues au courant des progrès avec lesquelles la communication est unidirectionnelle}
