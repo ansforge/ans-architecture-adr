@@ -1,7 +1,7 @@
 ---
 parent: Decisions
 nav_order: 0002
-title: 0003-Licence des projets Github
+title: 0002-Licence des projets Github
 ---
 
 # Licence des projets Github
