@@ -1,7 +1,7 @@
 ---
 parent: Decisions
 nav_order: 0001
-title: Choix du modèle pour la rédaction des ADR
+title: 0001-Choix du modèle pour la rédaction des ADR
 
 ---
 
@@ -9,9 +9,11 @@ title: Choix du modèle pour la rédaction des ADR
 
 * statut : proposé
 * date : 2025-05-27
+* périmètre : Agence 
 * décisionnaires : CTO
 * consultés : CTO
 * informés : équipe intégration, directeurs de domaine
+
 
 ---
 

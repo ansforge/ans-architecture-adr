@@ -1,12 +1,14 @@
 ---
 parent: Decisions
 nav_order: 0002
+title: 0003-Licence des projets Github
 ---
 
 # Licence des projets Github
 
 * statut : proposé
 * date : 2025-05-27
+* périmètre : Agence 
 * décisionnaires : CTO
 * consultés : CTO
 * informés : équipe intégration, directeurs de domaine
