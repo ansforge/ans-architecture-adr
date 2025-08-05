@@ -10,7 +10,7 @@ title: 0003-Convergence-des-CMS-publics-esante-et-Portail-Industriel
 * **date**: "2025-06-26"
 * **périmètre**: "Agence"
 * **décisionnaires**: "Equipe Portail"
-* **consultés**: "Camelia F., Jean-francois B., Céline B., Vanina B., Isabelle B., Christian C., Michael F., Hervé G., Nils G., Fatima E., Laurent J., Jean-Baptiste L., Stéphanie L., David P., Christophe P., Coraline P., Alexandre S., Olivier J."
+* **consultés**: "Cf. ADR sur l'Intranet"
 * **informés**: "Toutes les parties prenantes des projets esante.gouv.fr et Portail Industriel"
 
 ---
