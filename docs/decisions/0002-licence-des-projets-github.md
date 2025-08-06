@@ -28,8 +28,6 @@ Pour plus d'informations, voir <https://code.gouv.fr/documentation/#licences-app
 * CeCILL-B
 * MIT
 * Double licence MIT et CC0
-* Aucune licence
-* Autres licences open source
 
 ## Résultat de la Décision
 
@@ -46,7 +44,7 @@ Option choisie : Licence MIT car permissive et facilement applicable à la docum
 
 * Licence persmissive privilégiée par la communauté Apache. A utiliser si l'objectif est de travailler avec cette communauté.
 
-### BDS2 ou BSD3
+### BSD2 ou BSD3
 
 * Non privilégiée, car il [n'est pas clair qu'elle peut être utilisée pour la documentation](https://opensource.stackexchange.com/a/9545/5671)
 
