@@ -16,7 +16,7 @@ title: 0002-Licence des projets Github
 ## Contexte et énoncé du problème
 
 Tout doit être sous licence sinon les lois de copyright par défaut s'appliquent.
-La loi pour une république numérique impose que les administrations françaises s'appuient pour de nouveaux repositories sur les licences listées à l'adresse : https://www.data.gouv.fr/pages/legal/licences 
+La loi pour une république numérique impose que les administrations françaises s'appuient pour de nouveaux repositories sur les licences listées à l'adresse : <https://www.data.gouv.fr/pages/legal/licences/> 
 Pour plus d'informations, voir <https://code.gouv.fr/documentation/#licences-applicables-a-la-publication-dun-code-source> et <https://help.github.com/articles/licensing-a-repository/>.
 
 ## Options Envisagées
@@ -47,6 +47,10 @@ Option choisie : Licence MIT car permissive et facilement applicable à la docum
 ### BSD2 ou BSD3
 
 * Non privilégiée, car il [n'est pas clair qu'elle peut être utilisée pour la documentation](https://opensource.stackexchange.com/a/9545/5671)
+
+### CeCILL-B
+
+* Non privilégiée car elle reprend l’esprit des licences BSD : pas de copyleft mais une exigence de citation.  
 
 ### MIT
 
